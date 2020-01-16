@@ -1,6 +1,12 @@
 body {
     background-color: lightblue;
-  }
+    background-image: url("images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-size: 140em;
+    background-position: center;
+
+    }
   
 h1 {
    color: navy;
@@ -20,12 +26,10 @@ h1 {
   margin: auto;
   padding: 2em;
   position: relative;
+  background-color: white; opacity:60%;
   }
 p {
   text-align: justify;
-  font-family:'Orbitron', sans-serif;
+  font-family:'Source Code Pro', monospace;
 }
-nav {
-  margin: auto;
-  
-}
+
