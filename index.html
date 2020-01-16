@@ -30,5 +30,27 @@
 
 </div>
 </div>
+
+        <script>
+            const konamiCode = [38, 38, 40, 40, 37, 39, 37, 39, 65, 66, 13];
+            var previousInputs = [];
+            window.addEventListener("keydown", e => {
+                previousInputs.push(e.keyCode);
+                if (previousInputs.length > konamiCode.length) {
+                    previousInputs.length = konamiCode.length;
+                }
+            ​
+                let isSame = true;
+                for (let i = 0; i < konamiCode.length; i++) {
+                    if (previousInputs[i] !== konamiCode[i]) {
+                        isSame = false;
+                    }
+                } 
+                if (isSame) {
+                    alert("Ebic häx aktiveitted");
+                }
+            });
+
+        </script>
     </body>
 </html>
