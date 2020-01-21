@@ -41,7 +41,26 @@ nav h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+nav h2 {
+  font-family: 'orbitron', sans-serif;
+  float: left;
+  color: #f2f2f2;
+  text-align: justify;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 a:visited {
   color: rgba(178, 178, 185, 0.932);
+}
+#logo {
+  width: 60px;
+  height: 60px;
 }
