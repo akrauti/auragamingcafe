@@ -1,25 +1,21 @@
 body {
-    background-color: black;
-    background-image: url("images/background_image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-size: 170em;
-    background-position: center;
-
-    }
-  
+  background-color: black;
+  background-image: url("images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
 h1 {
-   color: navy;
-   margin-left: 20px;
-  }
+  color: navy;
+  margin-left: 20px;
+}
 #outerbox {
-    width: 78%;
-    height: 100%;
-    border: 5px solid black;
-    margin-top: 10%;
-    margin-left: 15%;
-    background: rgba(255,255,255,0.5)
-  }
+  width: 78%;
+  height: 100%;
+  border: 5px solid black;
+  margin-top: 10%;
+  margin-left: 15%;
+  background: rgba(255,255,255,0.5)
+}
 #textbox {
   width: 80%;
   height: 100%;
@@ -27,15 +23,14 @@ h1 {
   margin: auto;
   padding: 2em;
   position: relative;
-  }
+}
 p {
   text-align: justify;
   font-family:'Source Code Pro', monospace;
-  text
 }
 nav {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 nav h1 {
   font-family: 'orbitron', sans-serif;
@@ -45,4 +40,7 @@ nav h1 {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+a:visited {
+  color: rgba(178, 178, 185, 0.932);
 }
