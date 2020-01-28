@@ -3,7 +3,8 @@ body {
   background-image: url("images/background_image.jpg");
   background-size: cover; 
   background-attachment: fixed;
-  height: 100%;
+  height: 1500px;
+  margin: 0;
 }
 
 h1 {
@@ -38,21 +39,23 @@ p {
   opacity: 1.0;
   filter: alpha(opacity=100);
 }
-nav {
+#navbar {
   overflow: hidden;
   position: fixed;
   border-bottom: 2px white;
-
+  top: 0;
+  left: 0;
+  width: 100%;
+  
 }
 nav li {
   font-family: 'orbitron', sans-serif;
   float: left;
   color: #f2f2f2;
   text-align: center;
-  display: inline;
+  display: block;
   padding: 0 30px;
   list-style: none;
-  margin: 0 auto;
   text-decoration: none;
   font-size: 17px;
   margin-right: 5%;
@@ -93,7 +96,7 @@ a:visited {
   position: relative;
   border: 5em white;
   float: center;
-  margin-top: 0%;
+  margin-top: 20%;
 }
 
 /* Hide the images by default */
@@ -233,4 +236,7 @@ a:visited {
 #storepicture {
   height: 200px;
 }
-
+#homepictures { 
+  width:500px; 
+  height: 500px; 
+}
