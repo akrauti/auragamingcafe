@@ -228,8 +228,3 @@ a:visited {
   flex-shrink: 0;
 }
 
-#storepicture {
-  width:  400px;
-  height: 400px;
-  background-size: cover;
-}
