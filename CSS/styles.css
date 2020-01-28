@@ -41,13 +41,13 @@ p {
 }
 #navbar {
   overflow: hidden;
-  position: fixed;
   border-bottom: 2px white;
   top: 0;
   left: 0;
   width: 100%;
   
 }
+
 nav li {
   font-family: 'orbitron', sans-serif;
   float: left;
