@@ -190,6 +190,8 @@ a:visited {
   color: white;
   background-color:black;
   float: left;
+  margin-bottom:5%;
+  margin-top:5%;
 }
 
 .price {
