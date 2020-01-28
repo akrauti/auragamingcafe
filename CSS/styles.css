@@ -4,8 +4,6 @@ body {
   background-size: cover; 
   background-attachment: fixed;
   height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 h1 {
@@ -226,5 +224,7 @@ a:visited {
   grid-row-start: 2;
   grid-row-end: 3;
   flex-shrink: 0;
+  clear: both;
+  position: fixed;
 }
 
