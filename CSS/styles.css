@@ -1,9 +1,9 @@
-body {
+body, html {
   background-color: black;
   background-image: url("images/background_image.jpg");
   background-size: cover; 
   background-attachment: fixed;
-  height: 1500px;
+  height: 100%;
 }
 
 h1 {
@@ -34,6 +34,8 @@ p {
 }
 nav {
   overflow: hidden;
+  position: fixed;
+  border-bottom: 2px white;
 
 }
 nav li {
@@ -74,7 +76,8 @@ a:visited {
   filter: alpha(opacity=90);
   overflow: hidden;
   text-align: bottom;
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
+
