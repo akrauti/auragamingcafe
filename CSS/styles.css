@@ -1,9 +1,11 @@
-body, html {
+body {
   background-color: black;
   background-image: url("images/background_image.jpg");
   background-size: cover; 
   background-attachment: fixed;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -213,4 +215,21 @@ a:visited {
 
 .card button:hover {
   opacity: 0.7;
+}
+
+#bottom {
+  margin-top: auto;
+  height: 10%; 
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  flex-shrink: 0;
+}
+
+#storepicture {
+  width:  400px;
+  height: 400px;
+  background-size: cover;
 }
