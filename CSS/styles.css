@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+section {
+  font-size: 25px;
+}
+
 h1 {
   color: navy;
   margin-left: 20px;
@@ -239,4 +243,10 @@ a:visited {
 #homepictures { 
   width:500px; 
   height: 500px; 
+}
+
+#cbox {
+  background-color:white;
+  margin-bottom:0%;
+  padding-bottom:0%;
 }
