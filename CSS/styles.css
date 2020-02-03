@@ -26,6 +26,13 @@ h2 {
   font-size: 3vw;
 }
 
+h3 {
+  color: white;
+  margin-left: 1.5em;
+  font-family:'Source Code Pro', monospace;
+  font-size: 2.5vw;
+}
+
 h4 {
   color:white;
   font-weight:bolder;
