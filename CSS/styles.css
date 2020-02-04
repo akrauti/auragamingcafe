@@ -135,6 +135,14 @@ h4 {
   margin-bottom: 1.5%
 }
 
+#flag {
+  width: 2vw;
+  height: 1.2vw;
+  float: right;
+  margin-right: 3%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%
+}
 #cardcontainer {
     overflow: hidden;
     text-align: bottom;
