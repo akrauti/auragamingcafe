@@ -24,6 +24,7 @@ h2 {
   margin-left: 1.5em;
   font-family:'Source Code Pro', monospace;
   font-size: 3vw;
+  text-align: left;
 }
 
 h3 {
@@ -59,7 +60,7 @@ h4 {
   border-color:white;
   border-radius: 5px;
   margin-left:2em;
-  margin-right:10%;
+  margin-right:2em;
   background:  rgba(39, 36, 36, 0.9);
   margin-top: 15%;
   padding: 2em;
@@ -71,7 +72,7 @@ h4 {
   border-color:white;
   border-radius: 5px;
   margin-left:2em;
-  margin-right:10%;
+  margin-right:2em;
   background:  rgba(39, 36, 36, 0.9);
   margin-top: 3%;
   padding: 2em;
@@ -84,8 +85,11 @@ h4 {
   border-style: solid;
   border-color: white;
   border-radius: 2em;
+  margin-left: 5%;
   display: inline-block;
   font-family:'Source Code Pro', monospace;
+  text-align: center;
+  position: center;
 }
 
 #indexp {
@@ -120,10 +124,15 @@ h4 {
   margin-top: 1%;
 }
 
+#navbar a{
+  text-decoration: none;
+}
+
 #navbar a:hover {
   background: #ddd;
   color: black;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 #logo {
@@ -296,6 +305,7 @@ h4 {
 #storepicture {
   height: 200px;
 }
+
 #homepictures { 
   height: 500px;
 }
